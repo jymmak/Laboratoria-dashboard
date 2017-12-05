@@ -279,7 +279,7 @@ function getHseTargetedStudents(students) {
 
       var averageHse = hseTotal / sprints.length;
 
-      if (averageHse > 840) {
+      if (averageHse > calcMetHse) {
         targetedStudents++;
       }
     }
